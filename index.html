@@ -1,156 +1,138 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <style>
-
-      html {
-      scroll-behavior: smooth;
-      }
-      body {
-        font-family: Helvetica;
-        font-size: 15px;
-        background-color: #FFFFFF;
-        color: #708090;
-      }
-      #header {
-        background-color: #FFFFFF;
-        display: flex;
-        align-items: flex-end;
-        padding-top: 60px;
-        padding-bottom: 60px;
-      }
-      #header-text {
-        margin-top: 60px;
-        margin-left: 220px;
-      }
-      #header-text-name {
-        font-size: 30px;
-      }
-      #header-text-email {
-        font-size: 20px;
-        font-style: italic;
-      }
-      .header-text-desc {
-        font-size: 20px;
-      }
-      .vspace-top {
-        margin-top: 30px;
-      }
-      .vspace-top-news {
-          margin-top: 15px;
-      }
-      .news-date {
-          font-weight: bold;
-      }
-      .paper-title {
-        font-weight: bold;
-      }
-      .navbar-brand {
-      width: 50%;
-      font-size: 15px;
-    }
-    </style>
-
-    <title>Zhen Wang</title>
+  <title>Jon Barron</title>
+  
+  <meta name="author" content="Jon Barron">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/seal_icon.png">
 </head>
 
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Jon Barron</name>
+              </p>
+              <p>I am a staff research scientist at <a href="https://ai.google/research">Google Research</a>, where I work on computer vision and machine learning.
+              </p>
+              <p>
+                At Google I've worked on <a href="https://ai.googleblog.com/2020/12/portrait-light-enhancing-portrait.html">Portrait Light</a>, <a href="https://ai.googleblog.com/2014/04/lens-blur-in-new-google-camera-app.html">Lens Blur</a>, <a href="https://ai.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">HDR+</a>, <a href="https://www.google.com/get/cardboard/jump/">Jump</a>, <a href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">Portrait Mode</a>, and <a href="https://www.youtube.com/watch?v=JSnB06um5r4">Glass</a>. I did my PhD at <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I was advised by <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a> and funded by the <a href="http://www.nsfgrfp.org/">NSF GRFP</a>. I did my bachelors at the <a href="http://cs.toronto.edu">University of Toronto</a>.
+                I've received the <a href="https://www2.eecs.berkeley.edu/Students/Awards/15/">C.V. Ramamoorthy Distinguished Research Award</a> and the <a href="https://www.thecvf.com/?page_id=413#YRA">PAMI Young Researcher Award</a>.
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:jonbarron@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="data/JonBarron-CV.pdf">CV</a> &nbsp/&nbsp
+                <a href="data/JonBarron-bio.txt">Bio</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp/&nbsp
+                <a href="https://github.com/jonbarron/">Github</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/JonBarron.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/JonBarron_circle.jpg" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p>
+                I'm interested in computer vision, machine learning, optimization, and image processing. Much of my research is about inferring the physical world (shape, motion, color, light, etc) from images. Representative papers are <span class="highlight">highlighted</span>.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-<nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-dark">
-  <!-- Brand -->
-  <a class="navbar-brand" href="#top">Zhen Wang</a>
 
-  <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+          <tr onmouseout="nerfactor_stop()" onmouseover="nerfactor_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='nerfactor_image'>
+                  <img src='images/nerfactor_after.png' width="160"></div>
+                <img src='images/nerfactor_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function nerfactor_start() {
+                  document.getElementById('nerfactor_image').style.opacity = "1";
+                }
+
+                function nerfactor_stop() {
+                  document.getElementById('nerfactor_image').style.opacity = "0";
+                }
+                nerfactor_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://people.csail.mit.edu/xiuming/projects/nerfactor/">
+              <papertitle>NeRFactor: Neural Factorization of Shape and Reflectance<br>
+Under an Unknown Illumination</papertitle>
+              </a>
+              <br>
+              <a href="https://people.csail.mit.edu/xiuming/">Xiuming Zhang</a>,
+              <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
+              <a href="https://boyangdeng.com/">Boyang Deng</a>,<br>
+              <a href="https://www.pauldebevec.com/">Paul Debevec</a>,
+              <a href="http://billf.mit.edu/">William T. Freeman</a>,
+							<strong>Jonathan T. Barron</strong>,
+              <br>
+              <em>arXiv</em>, 2021 
+              <br>
+              <a href="https://people.csail.mit.edu/xiuming/projects/nerfactor/">project page</a>
+              /
+              <a href="https://arxiv.org/abs/2106.01970">arXiv</a>
+              /
+              <a href="https://www.youtube.com/watch?v=UUVSPJlwhPg">video</a>
+              <p></p>
+              <p>By placing priors on illumination and materials, we can recover NeRF-like models of the intrinsics of a scene from a single multi-image capture.</p>
+            </td>
+
+    
+
+        </tbody></table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Service</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td>
+            <td width="75%" valign="center">
+              <a href="http://cvpr2021.thecvf.com/area-chairs">Area Chair, CVPR 2021</a>
+              <br><br>
+              <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>
+              <br><br>
+              <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/cs188.jpg" alt="cs188">
+            </td>
+            <td width="75%" valign="center">
+              <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">Graduate Student Instructor, CS188 Spring 2011</a>
+              <br>
+              <br>
+              <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate Student Instructor, CS188 Fall 2010</a>
+              <br>
+              <br>
+              <a href="http://aima.cs.berkeley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition</a>
+            </td>
+          </tr>
+        </tbody></table>
   
-  <!-- Navbar links -->
-  <div class="collapse navbar-collapse" aria-expanded="false" style="height: 1px;" id="collapsibleNavbar">
-    <ul class="nav navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#top">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href='#papers'>Papers</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-
-    <div id='header'>
-      <div class='container'>
-        <div class='row'>
-          <!-- Portrait -->
-          <div class="col-sm-3 offset-sm-1">
-            <img src='./images/IMG_6965.jpg' class="rounded-circle img-fluid">
-          </div>
-
-          <!-- Name -->
-          <div class="col-sm-4">
-            <div id='header-text-name'>
-              Zhen Wang
-            </div>
-
-            <div id='header-text-email'>
-              zhenwang [at] ucla (dot) edu
-            </div>
-
-<!--             <div>
-              <a href="https://scholar.google.com/citations?user=J35vv0cAAAAJ&hl=en">[Google Scholar]</a>
-            </div> -->
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class='container'>
-        <div class='row'>
-            <div class='col offset-sm-1'>
-                <p>
-                  I am a Ph.D. student in the <a href="http://www.ee.ucla.edu/" target="_blank">Electrical and Computer Engineering Department</a> at <a href="http://www.ucla.edu/" target="_blank">University of California, Los Angeles</a>. I am a member of the <a href="https://visual.ee.ucla.edu/" target="_blank">Visual Machines Group</a>, advised by <a href="https://www.ee.ucla.edu/achuta-kadambi/" target="_blank">Prof. Achuta Kadambi</a>. 
-                </p>
-
-                <div class='vspace-top' id='papers'>
-                    <h1>Papers</h1>
-                    <p>(* Indicates equal contribution)</p>
-                </div>
-
-                <div class='row vspace-top'>
-                    <div class="col-sm-4">
-                        <img src='./images/world_map.png' class='img-fluid'>
-                    </div>
-
-                    <div class="col">
-                        <div class='paper-title'>
-                            Overcoming Difficulty in Obtaining Dark-skinned Subjects for Remote-PPG by Synthetic Augmentation
-                        </div>
-                        <div class='paper-desc'> Preprint, 2021 </div>
-                        <div class='paper-authors'>
-                          Yunhao Ba*, <b>Zhen Wang</b>*, Kerim Doruk Karinca, Oyku Deniz Bozkurt, Achuta Kadambi
-                        </div>
-                        <div>
-                            <a href="https://arxiv.org/abs/2106.06007" target="_blank">[Link]</a>
-                        </div>
-                    </div>
-                </div>
-
-        
-
-            
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
+
 </html>
